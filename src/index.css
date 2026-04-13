@@ -1,0 +1,32 @@
+/* index.css */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 3px solid #1d4ed8; /* blue-700 */
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  width: 0;
+  animation: 
+    typing 3.5s steps(30, end) forwards,
+    blink 0.75s step-end infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
