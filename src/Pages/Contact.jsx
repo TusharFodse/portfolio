@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, ChevronLeft, ChevronRight, ExternalLink, Instagram } from 'lucide-react';
-import projectimage from "../assets/6kvMk7iRzzKr2WJu.jpg"
+import projectimage from "../assets/CurruntProject.png"
 
 export const Contact = () => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
@@ -8,14 +8,13 @@ export const Contact = () => {
   // Sample project data
   const projects = [
     
-     {
-  title: "Avatar Shikshak: Offline AI Teacher for Regional Languages",
-  description: "An offline AI-powered virtual teacher that explains educational PDFs in simple language with speech, avatar animations, and diagrams. Works fully offline in regional languages like Marathi using open-source LLMs, TTS, and STT.",
-  technologies: ["PySide6", "QML", "Ollama (Mistral 7B)", "Vosk STT", "Coqui TTS", "OpenCV", "PyMuPDF"],
+{
+  title: "TrackSphere: AI-Powered Project Management & Risk Analytics Platform",
+  description: "A production-level enterprise project management platform that enables organizations to track project progress, assign employee tasks, monitor budgets, analyze risks, manage milestones, and visualize workflows through interactive dashboards and Gantt charts. Integrated AI-based risk prediction and progress analytics for smarter project governance and decision-making.",
+  technologies: ["ReactJS", "FastAPI", "PostgreSQL", "Tailwind CSS", "ShadCN UI", "JWT Authentication", "Recharts", "WebSockets", "Groq API", "Docker"],
   image: projectimage,
   link: "#"
 }
-
     
     
   ];
@@ -113,7 +112,7 @@ export const Contact = () => {
                 >
                   <Github className="h-6 w-6" />
                 </a>
-                
+                &ensp;
                 <a 
                   href="https://www.linkedin.com/in/tushar-fodse-093963329/" 
                   target="_blank" 
@@ -123,15 +122,7 @@ export const Contact = () => {
                 >
                   <Linkedin className="h-6 w-6" />
                 </a>
-                <a
-                href="https://www.instagram.com/tusharfdse?igsh=MWJjaTlqeXI2eHlzeA==" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="p-4 bg-slate-100 text-slate-700 rounded-xl hover:bg-blue-100 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
-                  aria-label="Instagrem"
-                >
-                  <Instagram className="h-6 w-6"/>
-                </a>
+
                 
                 
                 {/* </a> */}

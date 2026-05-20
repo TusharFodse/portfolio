@@ -8,8 +8,9 @@ import expenseTracker from '../assets/Expense_tracker.png';
 import imageClassification from '../assets/imageClassification.jpg';
 import resumeChecker from '../assets/Resume_checker.jpg';
 import resumeAnalysis from '../assets/ResumeAnalysis.png';
-import tusharImg from '../assets/Tushar.png';
-
+// import tusharImg from '../assets/Tushar.png';
+import avatarShikshak from '../assets/avatarShikshak.png'
+import algox from '../assets/Ai-Trade-Predict.png'
 // ProjectComponent with proper modal styling
 export const ProjectComponent = ({ project, onClose }) => {
   const projectlist = [
@@ -93,6 +94,24 @@ export const ProjectComponent = ({ project, onClose }) => {
   "Libraries/Frameworks": "TensorFlow, Keras, OpenCV, NumPy, Pandas, Matplotlib",
   image: resumeChecker,
   Concepts: "CNN, Convolution Layers, Pooling, Dropout, Batch Normalization, Image Preprocessing, Data Augmentation, Image Classification"
+},
+{
+  id: 10,
+  title: "Avatar Shikshak – AI Virtual Teacher",
+  data: "Developed an AI-powered Virtual Teacher platform using React, FastAPI, and LLM integration to explain PDF chapters with real-time multilingual voice interaction. Implemented intelligent PDF processing, chunk-based memory management, AI-generated study notes, and text-to-speech functionality using ElevenLabs TTS. Built real-time communication features using WebSockets and integrated PostgreSQL for efficient storage and retrieval of educational content. This project demonstrates strong skills in full-stack development, LLM integration, real-time systems, and AI-powered educational technology.",
+  Languages: "Python, JavaScript",
+  'Libraries/Frameworks': "React, FastAPI, WebSockets, PostgreSQL, ElevenLabs TTS, Ollama, LangChain",
+  image: avatarShikshak,
+  Concepts: "LLM Integration, PDF Processing, Chunk-based Retrieval, Real-time Communication, AI Chatbot, Text-to-Speech, Multilingual Support, RAG, Full Stack Development"
+},
+{
+  id: 11,
+  title: "Algo-X – AI Algorithmic Trading Platform",
+  data: "Developed an AI-powered algorithmic trading platform using React, Node.js, Express.js, and MongoDB with real-time cryptocurrency analytics, portfolio tracking, and interactive trading dashboards. Integrated blockchain wallet connectivity using MetaMask for secure authentication and transaction handling. Built scalable REST APIs for market data management and implemented deep learning-based cryptocurrency prediction models using TensorFlow, Keras, and LSTM networks. Trained AI models on BTC, ETH, and SOL datasets achieving up to 99% prediction accuracy for market trend forecasting. This project demonstrates strong skills in full-stack development, AI/ML integration, blockchain technology, financial analytics, and real-time trading systems.",
+  Languages: "JavaScript, Python",
+  'Libraries/Frameworks': "React, Node.js, Express.js, MongoDB, TensorFlow, Keras, MetaMask, Blockchain APIs",
+  image: algox,
+  Concepts: "Algorithmic Trading, AI/ML, LSTM, Cryptocurrency Prediction, Blockchain Integration, REST APIs, Real-time Analytics, Portfolio Management, Deep Learning, Full Stack Development"
 }
   ];
   

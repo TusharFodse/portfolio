@@ -65,6 +65,7 @@ export const Skills = () => {
       skills: [
         { name: 'Git & GitHub', level: 90, projects: 1 },
         { name: 'n8n', level: 70, projects: 1 },
+        { name: 'Blockchain', level: 70, projects: 1 },
         { name: 'PyCharm', level: 80, projects: 8 },
         { name: 'Langchain and LangGraph', level: 90, projects: 4 },
         { name: 'Docker', level: 65 },

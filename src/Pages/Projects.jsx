@@ -12,7 +12,8 @@ import expenseTracker from '../assets/Expense_tracker.png';
 import imageClassification from '../assets/imageClassification.jpg';
 import resumeChecker from '../assets/Resume_checker.jpg';
 import resumeAnalysis from '../assets/ResumeAnalysis.png';
-
+import avatarShikshak from '../assets/avatarShikshak.png'
+import algox from '../assets/Ai-Trade-Predict.png'
 const Project = () => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
@@ -116,7 +117,31 @@ const Project = () => {
       githubUrl: "https://github.com/TusharFodse/Copyright-Dectection",
       liveUrl: null,
       featured: true
-    }
+    },
+    {
+  id: 10,
+  title: "Avatar Shikshak – AI Virtual Teacher",
+  description: "Developed an AI-powered Virtual Teacher platform with real-time multilingual voice interaction, PDF chapter explanation, and AI-generated study notes using LLM integration.",
+  image: avatarShikshak,
+  technologies: ["React", "FastAPI", "WebSockets", "PostgreSQL", "LLM", "ElevenLabs TTS"],
+  category: ["ai-ml", "full-stack"],
+  githubUrl: "https://github.com/TusharFodse/Avatar-Shikshak",
+  liveUrl: null,
+  featured: true
+},
+{
+  id: 11,
+  title: "Algo-X – AI Algorithmic Trading Platform",
+  description: "Developed an AI-powered algorithmic trading platform with real-time cryptocurrency analytics, portfolio tracking, blockchain wallet integration, and deep learning-based market prediction achieving up to 99% prediction accuracy using LSTM models.",
+  image: algox,
+  technologies: ["React", "Node.js", "Express.js", "MongoDB", "Blockchain", "MetaMask", "TensorFlow", "Keras", "LSTM"],
+  category: ["ai-ml", "full-stack", "blockchain"],
+  githubUrl: "https://github.com/TusharFodse/Algo-X",
+  liveUrl: null,
+  featured: true
+}
+
+
   ];
 
   const filters = [

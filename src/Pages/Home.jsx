@@ -1,6 +1,6 @@
 import { ArrowDown, ExternalLink, Download, Github, Linkedin, Mail } from 'lucide-react';
 import tushar from '../assets/Tushar_clean.jpg';
-import resume from '../assets/Tushar Fodse (CV).pdf';
+import resume from '../assets/Tushar Resume (Job).pdf';
 
 export const Home = () => {
   return (
